@@ -1,0 +1,120 @@
+@charset "UTF-8";
+.titulos, .nombres, .nombre, .titulos1 {
+  font-size: 25px;
+  padding: 15px;
+  background-color: rgb(114, 114, 114);
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.titulos1 {
+  padding: 10px;
+  font-size: 45px;
+  display: inline;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.nombre {
+  font-size: 26px;
+  padding: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.nombres {
+  font-size: 29px;
+  padding: 9px;
+  color: black;
+  display: grid;
+}
+
+.titulos2 {
+  padding-top: 10px;
+}
+
+.titulos3, .titulos4, .preguntas {
+  background-color: grey;
+  padding: 12px;
+  font-size: 35px;
+  text-align: left;
+}
+
+.body {
+  background-color: grey;
+}
+
+.preguntas {
+  background-color: grey;
+}
+
+.links {
+  padding: 10px;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  background-color: rgb(190, 190, 190);
+}
+
+.in {
+  text-align: center;
+}
+
+.titulos4 {
+  font-size: 60px;
+}
+
+.scl {
+  transform: scale(1.6);
+}
+
+/* Estilos para dispositivos móviles (teléfonos) */
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #f2f2f2;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+/* Estilos para tabletas */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-color: #e6e6e6;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+/* Estilos para computadoras de escritorio */
+@media only screen and (min-width: 1025px) {
+  body {
+    background-color: #ffffff;
+  }
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+/* Estilos para dispositivos de alta resolución (4K) */
+@media only screen and (min-width: 1920px) {
+  body {
+    background-color: #f7f7f7;
+  }
+  .container {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=estilo_entrega_3.css.map */
